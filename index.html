@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Johnson Rewards and Winnings</title>
+<style>
+:root{--navy:#050b1b;--navy2:#0b1530;--blue:#087bff;--gold:#f5c84b;--gold2:#ffe58a;--white:#f7fbff;--muted:#aab8d0;--line:#1c3157}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--white);background:
+radial-gradient(circle at 75% 8%,rgba(0,126,255,.22),transparent 28%),
+radial-gradient(circle at 15% 28%,rgba(245,200,75,.08),transparent 25%),
+linear-gradient(180deg,#020713 0%,#07132d 45%,#030914 100%);min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(to bottom,#000,transparent 90%)}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 18px}
+header{position:sticky;top:0;z-index:20;background:rgba(3,8,20,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(245,200,75,.22)}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.4px}.crown{width:44px;height:36px;display:grid;place-items:center;font-size:27px;color:var(--gold);filter:drop-shadow(0 0 9px rgba(245,200,75,.5))}.brand small{display:block;color:var(--gold);font-size:10px;letter-spacing:2px}.brand strong{font-size:17px}.links{display:flex;gap:20px;font-size:12px;font-weight:800}.links a:hover{color:var(--gold)}.navbtn{padding:11px 17px;border-radius:9px;background:linear-gradient(135deg,#ffe27a,#d79e22);color:#091020;font-weight:900;box-shadow:0 7px 22px rgba(245,200,75,.2)}
+.hero{padding:64px 0 34px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}.eyebrow{color:#55a9ff;font-weight:900;letter-spacing:3px;font-size:12px}.hero h1{font-size:clamp(43px,6vw,76px);line-height:.95;margin:12px 0 18px;letter-spacing:-3px}.hero h1 span{color:var(--gold)}.hero p{max-width:620px;color:var(--muted);font-size:17px;line-height:1.65}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:14px 21px;border-radius:10px;font-weight:900}.primary{background:linear-gradient(135deg,#f8d768,#bd8010);color:#091020}.secondary{border:1px solid #2d4d7d;background:#0b1936}
+.slot{min-height:320px;border:1px solid #28538d;border-radius:22px;background:linear-gradient(145deg,#0c1b3d,#050b19);box-shadow:inset 0 0 50px rgba(0,123,255,.1),0 25px 60px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;position:relative}.slot:after{content:"";position:absolute;inset:12px;border:1px solid rgba(245,200,75,.25);border-radius:16px}.slot-inner{position:relative;z-index:1;text-align:center}.jackpot{font-size:13px;color:var(--gold);letter-spacing:3px;font-weight:900}.reels{display:flex;gap:10px;margin:20px 0}.reel{width:74px;height:92px;border-radius:12px;background:linear-gradient(#fff,#cbd4e1);color:#111;display:grid;place-items:center;font-size:43px;box-shadow:0 0 18px rgba(255,255,255,.12)}.coins{font-size:32px;letter-spacing:5px}
+.section{padding:30px 0}.section-title{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:18px}.section-title h2{margin:0;font-size:30px}.section-title p{margin:0;color:var(--muted);font-size:13px}.official{border:1px solid rgba(245,200,75,.42);background:linear-gradient(135deg,rgba(245,200,75,.09),rgba(0,112,255,.08));border-radius:18px;padding:25px;box-shadow:0 15px 45px rgba(0,0,0,.25)}.official-top{display:flex;align-items:center;gap:12px;color:var(--gold);font-weight:900;letter-spacing:1.5px;font-size:13px}.dot{width:9px;height:9px;background:#50e38a;border-radius:50%;box-shadow:0 0 13px #50e38a}.winner{margin-top:18px;padding:20px;border-radius:14px;background:rgba(3,10,25,.7);border:1px solid #244a7e;display:flex;justify-content:space-between;align-items:center;gap:15px}.winner-name{font-size:25px;font-weight:900}.winner-location{color:var(--muted);margin-top:5px}.verified{color:#65e6a0;font-size:12px;font-weight:900}.note{font-size:11px;color:#7f90ad;margin-top:14px;line-height:1.5}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{border:1px solid var(--line);border-radius:20px;padding:28px;background:linear-gradient(145deg,#0d1c3c,#071126);position:relative;overflow:hidden}.card:before{content:"";position:absolute;width:170px;height:170px;right:-80px;top:-80px;background:rgba(0,128,255,.18);border-radius:50%;filter:blur(3px)}.label{color:#5bb1ff;font-size:11px;letter-spacing:2px;font-weight:900}.money{font-size:50px;font-weight:950;color:var(--gold);margin:7px 0}.card p{color:var(--muted);line-height:1.55}.mega{border-color:rgba(245,200,75,.4);background:linear-gradient(145deg,#14234a,#080f21)}
+.contact-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:20px}.info,.form{border:1px solid var(--line);border-radius:20px;background:rgba(7,16,36,.86);padding:25px}.info h3,.form h3{margin-top:0}.info p{color:var(--muted);line-height:1.65}.contact-line{padding:13px 0;border-bottom:1px solid #1a2c4c}.contact-line:last-child{border-bottom:0}.contact-line b{display:block;font-size:12px;color:var(--gold);margin-bottom:4px}.contact-line span{color:#dce7f7;font-size:14px}
+form{display:grid;gap:12px}label{font-size:12px;font-weight:800;color:#c8d5ea}input,select,textarea{width:100%;padding:13px 14px;border-radius:9px;border:1px solid #29456f;background:#050d20;color:#fff;outline:none}textarea{min-height:125px;resize:vertical}input:focus,select:focus,textarea:focus{border-color:#3d9aff}.submit{border:0;cursor:pointer;padding:14px;border-radius:9px;background:linear-gradient(135deg,#f7d56b,#c28717);font-weight:900;color:#081020}
+footer{margin-top:40px;padding:28px 0;border-top:1px solid #182a48;color:#7183a1;font-size:11px;text-align:center}
+@media(max-width:850px){.links{display:none}.hero-grid,.cards,.contact-grid{grid-template-columns:1fr}.hero{padding-top:42px}.slot{min-height:250px}.winner{align-items:flex-start;flex-direction:column}.money{font-size:42px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><div class="crown">♛</div><div><small>JOHNSON</small><strong>Rewards &amp; Winnings</strong></div></a>
+<nav class="links"><a href="#home">HOME</a><a href="#draw">DRAW</a><a href="#winners">WINNERS</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a><a class="navbtn" href="#contact">JOIN NOW</a></nav>
+</div></header>
+
+<main id="home">
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">REAL PLAYERS • REAL REWARDS</div><h1>PLAY. WIN.<br><span>GET REWARDED.</span></h1><p>Johnson Rewards and Winnings brings promotional draws, featured rewards and official winner announcements together in one place.</p><div class="actions"><a class="btn primary" href="#draw">VIEW THE DRAW</a><a class="btn secondary" href="#winners">OFFICIAL WINNERS</a></div></div>
+<div class="slot"><div class="slot-inner"><div class="jackpot">JACKPOT MOMENT</div><div class="reels"><div class="reel">♛</div><div class="reel">7</div><div class="reel">★</div></div><div class="coins">🪙 🪙 🪙</div></div></div>
+</div></section>
+
+<section class="section" id="winners"><div class="wrap"><div class="section-title"><h2>Official Winner Announcements</h2><p>Published only when authorized and confirmed.</p></div>
+<div class="official"><div class="official-top"><span class="dot"></span> OFFICIAL WINNER</div>
+<div class="winner"><div><div class="winner-name">Nathan Wilson SNR</div><div class="winner-location">Brooklyn, New York</div></div><div class="verified">CONFIRMED ENTRY</div></div>
+<div class="note">Only information authorized for public display is shown here. A private residential address and an unverified ZIP code have not been published.</div>
+</div></div></section>
+
+<section class="section" id="draw"><div class="wrap"><div class="section-title"><h2>Featured Rewards</h2><p>Promotional amounts are editable by the site owner.</p></div>
+<div class="cards">
+<div class="card"><div class="label">FEATURED REWARD</div><div class="money">$25,000</div><p>A featured promotional reward amount. Participation and eligibility are subject to the applicable official promotion terms.</p></div>
+<div class="card mega"><div class="label">MEGA DRAW</div><div class="money">$2.5 MILLION</div><p>Eligible participants may be randomly selected for the Mega Draw, including selection based on telephone number where the official promotion rules provide for it.</p></div>
+</div></div></section>
+
+<section class="section" id="about"><div class="wrap"><div class="card"><div class="label">ABOUT JOHNSON REWARDS &amp; WINNINGS</div><h2>Promotions, draws and winner updates.</h2><p>Use this area for the owner’s current promotion information, eligibility requirements, draw details and official updates. Replace or edit the text as your promotion changes.</p></div></div></section>
+
+<section class="section" id="contact"><div class="wrap"><div class="section-title"><h2>Contact &amp; Customer Support</h2><p>Send a question or request directly.</p></div>
+<div class="contact-grid"><div class="info"><h3>Get in touch</h3><p>Customers can use the form to provide their name, email, telephone or WhatsApp number, subject and message.</p>
+<div class="contact-line"><b>EMAIL</b><span>peterjohnsonfromamerica@gmail.com</span></div>
+<div class="contact-line"><b>SUPPORT</b><span>Questions • Entries • Promotion information</span></div>
+</div>
+<div class="form"><h3>Customer Contact Form</h3>
+<form action="mailto:peterjohnsonfromamerica@gmail.com" method="post" enctype="text/plain">
+<label>Full Name<input name="Full Name" required></label>
+<label>Email Address<input type="email" name="Email Address" required></label>
+<label>Phone / WhatsApp Number<input name="Phone / WhatsApp Number"></label>
+<label>Subject<select name="Subject"><option>General Question</option><option>Promotion Information</option><option>Draw Question</option><option>Winner Information</option><option>Other</option></select></label>
+<label>Message<textarea name="Message" required></textarea></label>
+<button class="submit" type="submit">SEND MESSAGE</button>
+</form></div></div></div></section>
+</main>
+<footer><div class="wrap">© Johnson Rewards and Winnings • Official information only • Participate responsibly.</div></footer>
+</body>
+</html>
